@@ -179,7 +179,7 @@ flowchart BT
     subgraph Demo Connections
         direction BT
         c<-->gws
-        
+
         mw7b<-->c
         mw13b<-->c
         lsglw13b<-->c
@@ -430,19 +430,24 @@ If you find LLaVA useful for your research and applications, please cite using t
 }
 
 @misc{liu2023improvedllava,
-      title={Improved Baselines with Visual Instruction Tuning}, 
+      title={Improved Baselines with Visual Instruction Tuning},
       author={Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae},
       publisher={arXiv:2310.03744},
       year={2023},
 }
 
 @misc{liu2023llava,
-      title={Visual Instruction Tuning}, 
+      title={Visual Instruction Tuning},
       author={Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
       publisher={NeurIPS},
       year={2023},
 }
 ```
+
+## Customised Settings (this fork only)
+In order to run this project on a cluster where you do not have Conda installed, you can simply just run the following
+two scripts; **install_conda_env.sh** and **install_requirements.sh** which will download the Conda from Miniconda3 and
+then the second to create a virtual environment for the llava project  and install the necessary requirements via pip.
 
 ## Acknowledgement
 
