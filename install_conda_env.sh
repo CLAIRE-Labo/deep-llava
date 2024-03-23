@@ -9,7 +9,7 @@ rm ~/miniforge.sh
 source ~/miniforge3/etc/profile.d/conda.sh
 
 # create the llava virtualenv
-conda ccreeate -n llava python=3.10 -y
+conda create -n llava python=3.10 -y
 conda activate llava
 
 
